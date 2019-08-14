@@ -1,0 +1,11 @@
+#
+#config path
+#/etc/profile
+#
+PROXY='10.0.0.1:8080'
+export http_proxy=$PROXY
+export HTTP_PROXY=$PROXY
+export https_proxy=$PROXY
+export HTTPS_PROXY=$PROXY
+PROXY_USERNAME= proxy-user-name
+PROXY_PASSWORD= proxy-user-pass
